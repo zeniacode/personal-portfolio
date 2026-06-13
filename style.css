@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(219, 177, 197);
+    line-height: 1.6;
+    margin: 0;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(199, 32, 138));
+}
+nav{
+    background-color: rgb(217,217,217);
+    padding:20px;
+    display: flex;
+    justify-content:center;
+    gap:80px;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+.hero {
+    /* it truns the hero section into a flexbox and put the items inside the container in row by deafault */
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto;
+    min-height: 63vh;
+
+}
+.hero-text{
+    width: 60%;
+}
+
+.hero-image{
+    width: 300px;
+}
+.hero-image img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.page-title {
+    text-align:center;
+    margin-top:50px;
+}
+
+.page-title h1 {
+    font-size:40px;
+}
+
+/* ABOUT PAGE */
+
+.about-container {
+    display:flex;
+    width:80%;
+    margin:60px auto;     
+    gap:30px;
+}
+
+.about-card {
+    background-color: rgb(235, 224, 210);
+    padding:30px;
+    border-radius:15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.about-card h2 {
+    margin-bottom:15px;
+}
+
+/* JOURNEY PAGE */
+
+.timeline{
+    width:60%;
+    margin:20px auto;
+  
+}
+.step {
+    background:rgb(235, 224, 210);
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+    text-align: center;
+    border-left: 6px solid rgb(199, 32, 138);
+}
+
+.step h2 {
+    margin-top:10px;
+}
+.step p {
+     text-align: center;
+}
+footer {
+    background-color: rgb(217,217,217);
+    padding:20px;
+    display: flex;
+    justify-content:center;
+    gap:80px;
+}
