@@ -22,6 +22,9 @@ nav a{
     font-weight:bold;
     font-size: 20px;
 }
+.active-nav {
+    color: deeppink;
+}
 nav a:hover {
     text-decoration: underline;
     color: deeppink;
